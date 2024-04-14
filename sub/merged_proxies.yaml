@@ -96,9 +96,9 @@ proxies:
   - h3
 - name: hysteria1
   type: hysteria
-  server: 173.234.25.52
-  port: 48919
-  ports: 48919
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 11
   down: 55
@@ -110,9 +110,9 @@ proxies:
   - h3
 - name: hysteria2
   type: hysteria
-  server: www.dtku40.xyz
-  port: 18490
-  ports: 18490
+  server: 62.210.243.131
+  port: 18702
+  ports: 18702
   auth_str: dongtaiwang.com
   up: 11
   down: 55
@@ -124,15 +124,15 @@ proxies:
   - h3
 - name: hysteria3
   type: hysteria
-  server: 167.160.91.115
-  port: 41189
-  ports: 41189
-  auth_str: bWAwIqINo7XDm1fUlXQGBifVIXoYs1ylgVKqWFKzK1XyDKuwNF
+  server: 109.104.152.194
+  port: 58510
+  ports: 58510
+  auth_str: dongtaiwang.com
   up: 11
   down: 55
   fast-open: true
   protocol: udp
-  sni: www.amazon.cn
+  sni: bing.com
   skip-cert-verify: true
   alpn:
   - h3
